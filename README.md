@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: ISC -->
 
 <p align="center">
-  <img src="https://cloudcdn.pro/vitest-config/v1/logos/vitest-config.svg" alt="vitest-config logo" width="128" />
+  <img src="./vitest-config.svg" alt="vitest-config logo" width="128" />
 </p>
 
 <h1 align="center">@sebastienrousseau/vitest-config</h1>
