@@ -1,0 +1,51 @@
+{
+  "name": "@sebastienrousseau/vitest-config",
+  "version": "1.0.0",
+  "description": "Shareable Vitest testing configuration adhering to modern 2026 standards",
+  "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/sebastienrousseau/vitest-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastienrousseau/vitest-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastienrousseau/vitest-config/issues"
+  },
+  "keywords": [
+    "vitest",
+    "vitest-config",
+    "testing",
+    "unit-testing",
+    "esm"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "vitest": ">=1.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.5.0"
+  }
+}
