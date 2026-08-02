@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/vitest-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Shareable Vitest testing configuration adhering to modern 2026 standards",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
