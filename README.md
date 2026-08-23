@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: ISC -->
+<!-- SPDX-License-Identifier: Apache-2.0 OR MIT>
 
 <p align="center">
   <img src="./vitest-config.svg" alt="vitest-config logo" width="128" />
