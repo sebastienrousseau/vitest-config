@@ -5,6 +5,7 @@ Comprehensive schema, property definitions, and exported options reference for `
 ---
 
 ## Description
+
 Shareable Vitest configuration preset enforcing globals, node environments, and 100% coverage gates.
 
 ---
@@ -22,21 +23,25 @@ Shareable Vitest configuration preset enforcing globals, node environments, and 
 ## Feature & Property Reference
 
 ### 1. Test Globals
+
 - **Description**: Activates global test primitives (describe, it, expect) (`globals: true`)
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 2. Environment Preset
+
 - **Description**: Configures headless Node execution environment (`environment: 'node'`)
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 3. Test Discovery
-- **Description**: Discovers tests in src, test, and __tests__ directories
+
+- **Description**: Discovers tests in src, test, and **tests** directories
 - **Scope**: Production & Development
 - **Status**: Stable & Active
 
 ### 4. Strict 100% Coverage Thresholds
+
 - **Description**: Mandates 100% lines, functions, branches, and statements
 - **Scope**: Production & Development
 - **Status**: Stable & Active
