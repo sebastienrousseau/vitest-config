@@ -1,20 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Modern Vitest ESM Configuration
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  test: {
-    globals: true,
-    environment: "node",
-    include: ["test/**/*.{test,spec}.{js,ts,mjs,cjs}", "__tests__/**/*.{test,spec}.{js,ts,mjs,cjs}"],
-    coverage: {
-      provider: "v8",
-      reporter: ["text", "json", "html"],
-      thresholds: {
-        lines: 100,
-        functions: 100,
-        branches: 100,
-        statements: 100,
-      },
-    },
-  },
-};
+
+import config from "./index.cjs";
+
+export default config;
