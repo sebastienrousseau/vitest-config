@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@sebastienrousseau/config-kit": "^0.0.8",
-    "vitest": "5.0.0"
+    "vitest": "5.0.4"
   },
   "engines": {
     "node": ">=20.0.0"
